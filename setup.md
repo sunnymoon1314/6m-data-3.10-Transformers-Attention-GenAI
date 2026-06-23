@@ -27,7 +27,7 @@ conda --version
 
 ```bash
 git clone https://github.com/su-ntu-ctp/6m-data-3.10-Transformers-Attention-GenAI.git
-cd dsai-m3-l10-learner
+cd 6m-data-3.10-Transformers-Attention-GenAI
 ```
 
 ---
