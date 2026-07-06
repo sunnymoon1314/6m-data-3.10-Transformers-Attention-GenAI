@@ -1,6 +1,6 @@
 # Lesson — L10 Transformers, Attention & GenAI
 
-> **Chapter 10 of the NorthStar Retail story.** *Sarah Chen · Customer Experience Analyst · End of mid-year.*
+> **Chapter 10 of the NorthStar Retail story.** *Sarah Chen · Customer Experience Analyst · Week 11.*
 > The L09 catalogue search has shipped — customers can type "blue summer dress" and find one. Friday afternoon, Marcus walks over with one last brief: *"Can a customer ask 'I need a summer outfit for a beach holiday under £200' and get an actual product recommendation, in natural language, from our catalogue?"*
 > This is the closer. The answer is a transformer, an LLM, and the pattern that ties them to L09's embeddings — RAG.
 
@@ -51,6 +51,39 @@ Before you put a RAG system in front of a customer, run it through this three-st
 3. **Do you have an evaluation set, not just a demo?** Write down 20–50 (query → acceptable answer) pairs before you tune anything. Measure on that set when you change the retriever, the K, the prompt, or the model. A change that looks better on one example often breaks five others.
 
 Skip any of these and the assistant will demo beautifully and fail in production — the most expensive way to launch a GenAI feature.
+
+---
+
+## Key concepts — plain-English review
+
+Use this as a self-check before the review questions: read each concept, and if any feels fuzzy, jump back to the notebook or section that teaches it.
+
+**Transformer** — The architecture behind modern AI language models: layers of attention stacked deep. The same recipe powers the tiny embedding model from L09 and the largest chatbots — only the scale changes.
+*Real-world use:* The engine inside translation apps, ChatGPT, and the autocomplete in your email.
+
+**Attention** — The mechanism that lets every word in a sentence look at every other word and decide which ones matter for its meaning — so "it" knows whether it refers to "trophy" or "suitcase".
+*Real-world use:* Voice assistants resolving "book *it* for Tuesday" by attending back to "the dentist appointment" earlier in the conversation.
+
+**Tokenisation** — Chopping text into the pieces (tokens) the model actually reads — roughly words or fragments. Get the model's expected tokeniser or chat template wrong and it produces garbage.
+*Real-world use:* Why AI pricing is "per token" — a legal firm summarising contracts pays by the piece, not the page.
+
+**LLM / text generation** — A large language model is a next-word predictor in a loop: predict a probability for every possible next token, pick one, append it, repeat. Fluent paragraphs are just this loop running fast.
+*Real-world use:* Customer-service chatbots at banks and airlines drafting replies one predicted token at a time.
+
+**Prompt** — The full text you hand the model — instructions, context, question. It's the model's *only* window into your world, so wording and placement genuinely change the output.
+*Real-world use:* A retailer's assistant behaves completely differently with "recommend only from the list below" versus no rule at all.
+
+**Temperature** — The randomness dial for generation. Low = predictable, safe, repetitive; high = creative but erratic.
+*Real-world use:* A hospital discharge-summary tool runs cold (low temperature); a marketing-slogan brainstormer runs warm.
+
+**Hallucination** — The model confidently inventing plausible-sounding facts — the default when it lacks real information, not a malfunction. It was trained to produce *plausible* text, not *true* text.
+*Real-world use:* The infamous court filing citing legal cases that never existed — and NorthStar's assistant inventing products until RAG grounded it.
+
+**RAG (retrieval-augmented generation)** — Fix hallucination by fetching the relevant real documents first (using L09's semantic search), pasting them into the prompt, and telling the model to answer only from those.
+*Real-world use:* An insurer's policy chatbot that quotes from the customer's actual policy documents instead of guessing.
+
+**Embeddings (recap)** — Meaning-as-numbers vectors from L09, doing the "R" in RAG: they find which catalogue rows or documents are relevant before the LLM ever speaks.
+*Real-world use:* An internal HR bot embedding the staff handbook so "how many days off for a new baby?" retrieves the parental-leave page.
 
 ---
 

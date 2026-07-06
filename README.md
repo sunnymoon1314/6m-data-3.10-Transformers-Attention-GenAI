@@ -35,11 +35,12 @@ This is the lesson that connects classical ML to GenAI. By Friday you'll underst
 - Watch the [lesson intro video](https://youtu.be/dJ2zUsszac4) (~5 min)
 - Read [pre-class.md](pre-class.md)
 - Watch the linked 3Blue1Brown attention video
+- Explore the [**interactive key-concepts page**](https://su-ntu-ctp.github.io/6m-data-3.10-Transformers-Attention-GenAI/) after the videos (GitHub Pages)
 - Run [notebooks/01_monday_morning.ipynb](notebooks/01_monday_morning.ipynb) — feel the power of pretrained pipelines
 
-## Phase 2 — In-class (≈ 90 min lecture + 90 min code-along)
+## Phase 2 — In-class (≈ 45–60 min slide recap + 90 min code-along + 15 min exit survey)
 
-- Concept walkthrough: instructor uses the [**interactive key-concepts walkthrough →**](https://su-ntu-ctp.github.io/6m-data-3.10-Transformers-Attention-GenAI/) (revisit any time)
+- Concept recap with slides (~45–60 min): instructor recaps the key concepts — you already explored the [interactive key-concepts walkthrough](https://su-ntu-ctp.github.io/6m-data-3.10-Transformers-Attention-GenAI/) pre-class (revisit any time)
 - Short reference & review → [**lesson.md**](./lesson.md) (overview, key takeaways, RAG-design checklist, 8-question review, course-closing reflection)
 - Code-along notebooks (in order):
   - [02_attention_intuition.ipynb](notebooks/02_attention_intuition.ipynb) — attention by hand
@@ -47,6 +48,8 @@ This is the lesson that connects classical ML to GenAI. By Friday you'll underst
   - [04_rag_pipeline.ipynb](notebooks/04_rag_pipeline.ipynb) — retrieval-augmented generation
 
 > **Don't have a GPU?** L10 runs on CPU but SmolLM2 generation is slow (~5-15 tokens/sec). On a T4 GPU in Colab it's near-instant. Each notebook has an **Open in Colab** badge at the top — click it, then **Runtime → Change runtime type → T4 GPU**:
+
+- Class exit survey (~15 min): quick feedback to close the session
 
 ## Phase 3 — Post-class (self-study, optional)
 
@@ -63,7 +66,8 @@ This is the lesson that connects classical ML to GenAI. By Friday you'll underst
 | `lesson.md`              | Short reference: overview, takeaways, RAG-design checklist, review Q&A, course-closing reflection |
 | `reference.md`           | Glossary of 25 transformer/GenAI terms |
 | `environment.yml`        | Conda env spec |
-| `docs/index.html`        | Interactive key-concepts walkthrough (GitHub Pages) |
+| `docs/index.html`        | Interactive key-concepts page — explore during pre-class (GitHub Pages) |
+| `mcq_assessment.md`      | Multiple-choice self-check quiz |
 | `notebooks/`             | 4 in-class NBs + assignment + extensions + data |
 
 ## Module 3 close
