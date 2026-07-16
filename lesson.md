@@ -1,7 +1,7 @@
 # Lesson — L10 Transformers, Attention & GenAI
 
 > **Chapter 10 of the NorthStar Retail story.** *Sarah Chen · Customer Experience Analyst · Day 11.*
-> The L09 catalogue search has shipped — customers can type "blue summer dress" and find one. Friday afternoon, Marcus walks over with one last brief: *"Can a customer ask 'I need a summer outfit for a beach holiday under £200' and get an actual product recommendation, in natural language, from our catalogue?"*
+> The L09 catalogue search has shipped — customers can type "blue summer dress" and find one. Yesterday afternoon, Marcus walked over with one last brief: *"Can a customer ask 'I need a summer outfit for a beach holiday under £200' and get an actual product recommendation, in natural language, from our catalogue?"*
 > This is the closer. The answer is a transformer, an LLM, and the pattern that ties them to L09's embeddings — RAG.
 
 This document is a **short reference** — the lesson itself is taught in the notebooks. Read it for orientation before class, then come back to it for the takeaways, the RAG-design checklist, the review questions, and the arc-closing reflection.
@@ -12,7 +12,7 @@ This document is a **short reference** — the lesson itself is taught in the no
 
 | Stage | Where to go |
 |---|---|
-| **Pre-class** | `pre-class.md` + `notebooks/01_monday_morning.ipynb` |
+| **Pre-class** | `pre-class.md` + `notebooks/01_morning_briefing.ipynb` |
 | **In-class — Part 1: Attention intuition** | `notebooks/02_attention_intuition.ipynb` |
 | **In-class — Part 2: Using a small LLM** | `notebooks/03_using_an_llm.ipynb` |
 | **In-class — Part 3: RAG pipeline** | `notebooks/04_rag_pipeline.ipynb` |

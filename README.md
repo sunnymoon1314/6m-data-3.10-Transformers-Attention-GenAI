@@ -12,7 +12,7 @@ Sarah has been on a nine-day journey at NorthStar Retail:
 - **L08** — convolutions, transfer learning, computer vision
 - **L09** — embeddings and semantic search
 
-After L09 the catalogue search ships. Customers are happier. Marcus is happy. But on Friday afternoon he asks one more question — the question that's been sitting in everyone's inbox since ChatGPT launched:
+After L09 the catalogue search ships. Customers are happier. Marcus is happy. But yesterday afternoon he asked one more question — the question that's been sitting in everyone's inbox since ChatGPT launched:
 
 > *"Can we build a **shopping assistant**? Customer asks 'I need a summer outfit for a beach holiday under £200' — it understands the question AND recommends actual products from our catalogue."*
 
@@ -28,7 +28,7 @@ This is the **closer** of the module. By the end of L10 you will be able to:
 4. **Build a RAG pipeline** — retrieval-augmented generation: combine L09's embeddings with an LLM to answer questions about your data
 5. **Know when to use what** — prompt the API, fine-tune your own, build a RAG system, or just write a regex
 
-This is the lesson that connects classical ML to GenAI. By Friday you'll understand the basics of the architecture behind ChatGPT, Claude, Gemini, and Llama.
+This is the lesson that connects classical ML to GenAI. By the end of the day you'll understand the basics of the architecture behind ChatGPT, Claude, Gemini, and Llama.
 
 ## Phase 1 — Pre-class (≈ 30 min)
 
@@ -36,7 +36,7 @@ This is the lesson that connects classical ML to GenAI. By Friday you'll underst
 - Read [pre-class.md](pre-class.md)
 - Watch the linked 3Blue1Brown attention video
 - Explore the [**interactive key-concepts page**](https://su-ntu-ctp.github.io/6m-data-3.10-Transformers-Attention-GenAI/) after the videos (GitHub Pages)
-- Run [notebooks/01_monday_morning.ipynb](notebooks/01_monday_morning.ipynb) — feel the power of pretrained pipelines
+- Run [notebooks/01_morning_briefing.ipynb](notebooks/01_morning_briefing.ipynb) — feel the power of pretrained pipelines
 
 ## Phase 2 — In-class (≈ 45–60 min slide recap + 90 min code-along + 15 min exit survey)
 
