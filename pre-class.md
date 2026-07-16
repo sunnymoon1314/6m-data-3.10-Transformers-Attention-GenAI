@@ -16,7 +16,7 @@ This is the simplest version of "show up prepared": watch a short intro, run one
 
 ▶️ **[L10 Intro — Transformers, Attention & GenAI](https://youtu.be/dJ2zUsszac4)**
 
-A short orientation to the final week: attention, transformer blocks, and the RAG shopping assistant Sarah builds to close the module. Watch it before opening the notebook.
+A short orientation to the final day: attention, transformer blocks, and the RAG shopping assistant Sarah builds to close the module. Watch it before opening the notebook.
 
 🕹️ **After the video:** open the [interactive key-concepts page](https://su-ntu-ctp.github.io/6m-data-3.10-Transformers-Attention-GenAI/) and play with it for 10–15 minutes. Drag the sliders, click the buttons — you can't break anything. Arriving in class having *seen* these ideas move makes the session far easier.
 

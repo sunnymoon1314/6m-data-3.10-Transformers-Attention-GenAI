@@ -4,7 +4,7 @@
 
 ## The story so far
 
-Sarah has been on a nine-week journey at NorthStar Retail:
+Sarah has been on a nine-day journey at NorthStar Retail:
 
 - **L01-L03** — built her first models, learnt to evaluate them honestly, learnt to make them work in production
 - **L04-L06** — gradient boosting, unsupervised methods, time series
@@ -72,7 +72,7 @@ This is the lesson that connects classical ML to GenAI. By Friday you'll underst
 
 ## Module 3 close
 
-This is the last lesson. After L10 you'll have built — across nine weeks — a complete toolkit:
+This is the last lesson. After L10 you'll have built — across nine days — a complete toolkit:
 
 - Classical ML (LR, trees, boosting, clustering, time series)
 - Deep learning (MLPs, CNNs, NLP transformers)
@@ -80,4 +80,4 @@ This is the last lesson. After L10 you'll have built — across nine weeks — a
 
 You can ship real ML systems. The next steps depend on you — domain specialisation, fine-tuning, MLOps, evaluation. The foundations are all here.
 
-Welcome to the last week.
+Welcome to the last day.
