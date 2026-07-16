@@ -62,7 +62,7 @@ conda activate dsai-m3
 ## 4. First-run downloads (automatic)
 
 - **Data (included in the repo):** `notebooks/data/northstar_catalogue.csv` (reused from L09).
-- **Models:** the pre-class notebook (`01_monday_morning.ipynb`) downloads three models from Hugging Face into `~/.cache/huggingface/`: `distilbert-sst-2` (~268 MB), `bert-base-NER` (~436 MB), and `bart-large-mnli` (~1.6 GB, for zero-shot classification). The in-class notebooks then add `SmolLM2-360M-Instruct` (~720 MB). Total cache after the whole lesson: ~3 GB.
+- **Models:** the pre-class notebook (`01_morning_briefing.ipynb`) downloads three models from Hugging Face into `~/.cache/huggingface/`: `distilbert-sst-2` (~268 MB), `bert-base-NER` (~436 MB), and `bart-large-mnli` (~1.6 GB, for zero-shot classification). The in-class notebooks then add `SmolLM2-360M-Instruct` (~720 MB). Total cache after the whole lesson: ~3 GB.
 
 > **No GPU?** L10 runs on CPU, but SmolLM2 generation is slow (~5–15 tokens/sec) vs near-instant on a free Colab T4 GPU. Notebooks 03, 04, the assignment, and the extensions each have an **Open in Colab** badge at the top — click it, then **Runtime → Change runtime type → T4 GPU**.
 
@@ -95,7 +95,7 @@ When VS Code opens, it may prompt you to install recommended extensions (Python,
 
 ## 7. Select the `dsai-m3` kernel
 
-1. Open `notebooks/01_monday_morning.ipynb`.
+1. Open `notebooks/01_morning_briefing.ipynb`.
 2. In the top-right of the notebook, click **Select Kernel**.
 3. Choose **Python Environments → dsai-m3**.
 
@@ -105,7 +105,7 @@ If `dsai-m3` doesn't appear, restart VS Code and try again. If it still doesn't 
 
 ## 8. Smoke test
 
-In `01_monday_morning.ipynb`, run the first cell (the imports). If it completes without errors, you're set.
+In `01_morning_briefing.ipynb`, run the first cell (the imports). If it completes without errors, you're set.
 
 If you see `ModuleNotFoundError`, the wrong kernel is selected — go back to Step 7. If the kernel **crashes** on `import torch` on macOS, you skipped Step 5.
 
